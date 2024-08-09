@@ -4,19 +4,33 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="./output.css" rel="stylesheet">
+    <link href="./style.scss" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <title>TailwindProject</title>
 
 
 </head>
 
-<body>
-    <div class="cont">
-        <p> Hello </p>
-    </div>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
+<body class="bg-gray-100">
+
+    <header class="bg-gray-800 text-white text-center py-4">
+        <h1 class="text-3xl">Welcome to My Website</h1>
+        <nav class="mt-4">
+            <a href="#" class="text-white mx-4">Home</a>
+            <a href="#" class="text-white mx-4">About</a>
+            <a href="#" class="text-white mx-4">Contact</a>
+        </nav>
+    </header>
+    <main class="p-8">
+        <section>
+            <h2 class="text-2xl font-bold">About Us</h2>
+            <p class="mt-4">This is my website </p>
+        </section>
+    </main>
+    <footer class="bg-gray-800 text-white text-center py-4 fixed bottom-0 w-full">
+        <p>&copy; 2024 My Website</p>
+    </footer>
 
 </body>
 
